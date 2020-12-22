@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="style.css">
 
     <title>Brice-Whitefield-Portfolio</title>
+    <style>
+        .container {
+            padding:20px;
+        }
+    </style>
     
     <h1>Brice Whitefield</h1>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -35,33 +40,38 @@
 <br>
     <div class="row">
         <div class="col-lg-3">
-            <img class="img img-thumbnail" src="http://placehold.it/200x200">
+            <img class="img img-thumbnail" src="data:image/png;base64,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" alt = "arizona flag">
         </div>
           <div class="col-lg-9">
             <h2>Where I'm From:</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, nemo vitae! Nostrum quisquam quod autem amet distinctio tenetur dolore sequi veniam, vero nobis impedit nemo dolor ex dolorum quo minus.
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, obcaecati fugit! Deserunt a omnis iusto dolores cupiditate inventore veniam iste est, odio in vel? Impedit ad ullam molestias quas nam.</p>
+            <article>
+            <p>I was born and raised in Phoenix, Arizona. After living there for 19 years I decided to move to Austin, Texas in 2017 for a year. I jumped around from city to city in Texas such as Killeen, Cypress, and am currently living in Houston, Texas.</p>
+            </article>
             </div>
         </div>
 <br>
     <div class="row">
             <div class="col-lg-3">
-           <img class="img img-thumbnail" src="http://placehold.it/200x200">
+           <img class="img img-thumbnail" src="https://logos-world.net/wp-content/uploads/2020/11/Costco-Wholesale-Logo.png" alt="costco-wholesale">
         </div>
            <div class="col-lg-9">
               <h2>Work/Education:</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, nemo vitae! Nostrum quisquam quod autem amet distinctio tenetur dolore sequi veniam, vero nobis impedit nemo dolor ex dolorum quo minus.</p>
-           </div>  
+            <article>
+              <p>I graduated High School in 2016 and was not set on a major so I studied at Paradise Valley Community College in Phoenix, Arizona. When i moved to Texas I started school at Austin Community College for Environmental Science. I eventually dropped out and started to work in retail. I worked at Target for 2 years, and then left to go work at my current job, Costco Wholesale.  </p>
+            </article>
+            </div>  
         </div>  
 <br>
     <div class="row">
             <div class="col-lg-3">
-           <img class="img img-thumbnail" src="http://placehold.it/200x200">
+           <img class="img img-thumbnail" src="IMG_2747.PNG" alt="mountain pic">
         </div>
            <div class="col-lg-9">
               <h2>Why I am taking this class:</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, nemo vitae! Nostrum quisquam quod autem amet distinctio tenetur dolore sequi veniam, vero nobis impedit nemo dolor ex dolorum quo minus.</p>
-           </div>  
+            <article>
+              <p>I am taking this class because I enjoy seeing what I create come to life before my eyes. I love the process in which eveything comes together as I learn. The tech industry is somewhere where I feel confident I can grow and move up within a certain company.  </p>
+            </article>
+            </div>  
         </div>  
  </body>
 </html>
