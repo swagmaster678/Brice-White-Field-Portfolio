@@ -23,7 +23,7 @@
 
 
 -My Portfolio 
-* Has a navbar that has linkts to About me, Portfolio page, and Contact         information.
+* Has a navbar that has linkts to About me, Portfolio page, and Contact information.
 * Has a responsive layout.
 * Has responsive images.
 * Functional.
