@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+<!--linked bootstrap link so cssbootstrap code would work-->   
+<!--linked style.css link so style page would work-->  
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <!--used semantic elements <header>-->
 <header>
     <title>Contact Information</title>
 </header>   
-
+<!--used navbar to fit requirements for usage of bootstrap-->
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: pink;">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,22 +27,25 @@
 </nav>
 </head>
 <style>
+  /*used border to show where the nav bar is */
 .jumbotron-fluid{
   border-style: i;
 }
-.h1{
-  text-align: left;
+#container{
+  display:flex;
+  flex: row-reverse;
 }
-
 </style>
 <body>
+  <!--used jumbotron to fit requirements of usage of bootstrap-->
     <div class="jumbotron jumbotron-fluid"> 
-        <div class="container">
+        <div> 
           <h1 class="display-4">Contact Information</h1>
-          <p class="lead">Feel free to leave your contact information!</p>
+          <p class="lead">Feel free to email, call/text, and or reach me through Linkedin</p>
         </div>
       </div>
-      <div id="container">
+      <!--created new div id for container to include email, phone, number, and social media-->
+      <div id="container"> 
         <article>
             <ul>
               <li>Email: <a href ="bricewhitefield@yahoo.com">bricewhitefield@yahoo.com</a></li>
@@ -49,6 +54,7 @@
             </ul>
         </article>
       </div>
+      <!--used <footer> to easily distinguish text box at the bottom-->
       <footer>
         <div class="box">
           <p class="footer-text"> &copy Copyright 2020 Brice Whitefield.</p>
