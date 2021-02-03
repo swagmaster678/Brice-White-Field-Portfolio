@@ -11,8 +11,8 @@
     ![My Portfolio](images/_C__Users_brice_Desktop_homework_swagmaster.github.io_index.html.png)
 
  
--About Me 
-* Has a navbar that has linkts to About me, Portfolio page, and Contact information.
+# About Me 
+* Has a navbar that has links to About me, Portfolio page, and Contact information.
 * Has a responsive layout.
 * Has responsive images.
 * Functional.
@@ -21,7 +21,7 @@
 * Uses semantic HTML.
 
 
--My Portfolio 
+# My Portfolio 
 * Has a navbar that has links to About me, Portfolio page, and Contact information.
 * Has a responsive layout.
 * Has responsive images.
@@ -30,7 +30,7 @@
 * Contains personalized information such as images.
 * Uses semantic HTML.
 
--My Contact Information
+# My Contact Information
 * Has a navbar that has linkts to About me, Portfolio page, and Contact information.
 * Has a responsive layout.
 * Has responsive images.
