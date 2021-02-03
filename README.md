@@ -1,4 +1,3 @@
-# Homework 2
 # Brice Whitefield's Portfolio
 * In this homework assignment I made a webpage from scratch using my knowledge of HTML,CSS, as well as CSSBoostrap.
     
@@ -23,7 +22,7 @@
 
 
 -My Portfolio 
-* Has a navbar that has linkts to About me, Portfolio page, and Contact information.
+* Has a navbar that has links to About me, Portfolio page, and Contact information.
 * Has a responsive layout.
 * Has responsive images.
 * Functional.
