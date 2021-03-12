@@ -8,7 +8,7 @@
     [My Repository](https://github.com/swagmaster678/Brice-White-Field-Portfolio)
 
     # Screenshot of the working web page:
-    ![My Portfolio](images/swagmaster.github.io\images\Coding-Assignments_swagmaster.github.io_index.html.png)
+    ![My Portfolio](images/Coding-Assignments_swagmaster.github.io_index.html.png) 
 
  
 # About Me 
