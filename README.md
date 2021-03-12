@@ -11,7 +11,7 @@
     ![My Portfolio](images/Coding-Assignments_swagmaster.github.io_index.html.png) 
 
  
-# About Me 
+# About Me
 * Has a navbar that has links to About me, Portfolio page, and Contact information.
 * Has a responsive layout.
 * Has responsive images.
