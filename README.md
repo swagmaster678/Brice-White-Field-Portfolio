@@ -1,5 +1,5 @@
 # Brice Whitefield's Portfolio
-* In this homework assignment I made a webpage from scratch using my knowledge of HTML,CSS, as well as CSSBoostrap.
+* In this homework assignment I made a webpage from scratch using my knowledge of HTML, CSS, as well as CSS Boostrap.
     
     # Link to the website:
     [Deployed-Website](https://swagmaster678.github.io/Brice-White-Field-Portfolio/)
